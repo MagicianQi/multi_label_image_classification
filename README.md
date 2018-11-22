@@ -24,16 +24,16 @@
 
 训练集位置：
     
-    "172.30.1.118:/home/datasets/qishuo/coco/train2017"
+    "ip:/home/datasets/qishuo/coco/train2017"
 
 验证集位置：
 
-    "172.30.1.118:/home/datasets/qishuo/coco/val2017"
+    "ip:/home/datasets/qishuo/coco/val2017"
 
 ## How to use
 修改路径参数、超参数等统一：`vim xxx.python`
 1. Clone：
-    * `git clone https://code.soulapp.cn/qishuo/multi_label_image_classification`
+    * `git clone https://github.com/MagicianQi/multi_label_image_classification`
     * `cd ./multi_label_image_classification`
 2. 进入虚拟环境(在172.30.1.118上)：
     * `source /home/qishuo/venv/bin/activate`
