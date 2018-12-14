@@ -30,6 +30,10 @@
 
     "ip:/home/datasets/qishuo/coco/val2017"
 
+## Model
+
+[Multi-Class_ResNet.pkl(163MB)](https://github.com/MagicianQi/multi_label_image_classification/releases/download/v1.0/Multi-Class_ResNet.pkl)
+
 ## How to use
 修改路径参数、超参数等统一：`vim xxx.python`
 1. Clone：
