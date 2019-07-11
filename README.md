@@ -22,14 +22,6 @@
 2. 随机翻转
 3. 归一化
 
-训练集位置：
-    
-    "ip:/home/datasets/qishuo/coco/train2017"
-
-验证集位置：
-
-    "ip:/home/datasets/qishuo/coco/val2017"
-
 ## Model
 
 [Multi-Class_ResNet.pkl(163MB)](https://github.com/MagicianQi/multi_label_image_classification/releases/download/v1.0/Multi-Class_ResNet.pkl)
@@ -39,17 +31,15 @@
 1. Clone：
     * `git clone https://github.com/MagicianQi/multi_label_image_classification`
     * `cd ./multi_label_image_classification`
-2. 进入虚拟环境(在172.30.1.118上)：
-    * `source /home/qishuo/venv/bin/activate`
-3. 生成MS COCO分类标签：
+2. 生成MS COCO分类标签：
     * 生成标签文件：`python ./scrpits/generate_coco_labels.py`  
-4. 训练：
+3. 训练：
     * 训练 ：`python resnet_multi_label.py`
     * 后台训练：`screen python resnet_multi_label.py`
-5. 验证：
+4. 验证：
     * 计算准确率(acc)：`python evaluate_multi_label_acc.py`
     * 计算召回率(recall)：`python evaluate_multi_label_recall.py`
-6. 测试：
+5. 测试：
     * 测试图像结果：`python testing_multi_label.py 1.jpg 2.jpg 3.jpg`
 
 ## 展示
