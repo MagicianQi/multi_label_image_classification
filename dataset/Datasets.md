@@ -64,7 +64,7 @@
 ### 9.Stanford Dogs Dataset
 
     - 图像总量：20580
-    - 类别数量：120a
+    - 类别数量：120
     - 下载方式：官网 http://vision.stanford.edu/aditya86/ImageNetDogs/
     - 特点：120类狗分类数据集。
     
